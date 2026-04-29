@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 14</title>
+  </head>
+  <body>
+    <h1>Ejercicio14</h1>
+
+    <script>
+      let numero = 0;
+      let cantidad = prompt("Ingrese la cantidad de numeros: ");
+      let numeros = [];
+      cantidad = Number(cantidad);
+
+      for (let i = 0; i < cantidad; i++) {
+        numero = Number(prompt("Ingrese numero: "));
+        numeros.push(numero);
+      }
+
+      let duplicar = (arraynumeros) => {
+        let numerosx2 = [];
+        for (let j = 0; j < arraynumeros.length; j++) {
+          numerosx2.push(arraynumeros[j] * 2);
+        }
+        return numerosx2;
+      };
+
+      document.write(`<h3>Resultados Ejercicio 14</h3>`);
+      document.write(`<p>Numeros iniciales son: ${numeros}</p>`);
+      document.write(`<p>Numeros duplicados: ${duplicar(numeros)}</p>`);
+    </script>
+  </body>
+</html>
