@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+</head>
+<body>
+    <script>
+        let n1 = prompt("Ingrese el primer número:");
+        n1 = Number(n1);
+        let n2 = prompt("Ingrese el segundo número:");
+        n2 = Number(n2);
+        let n3 = prompt("Ingrese el tercer número:");
+        n3 = Number(n3);
+        let n4 = prompt("Ingrese el cuarto número:");
+        n4 = Number(n4);
+        if (isNaN(n1) || isNaN(n2) || isNaN(n3) || isNaN(n4)) {
+            document.write("Por favor, ingrese solo números válidos.");
+        } else if (n1 < 0 || n1 > 9 || n2 < 0 || n2 > 9 || n3 < 0 || n3 > 9 || n4 < 0 || n4 > 9) {
+            document.write("Por favor, ingrese números entre 0 y 9.");
+        } else {
+            let numeros = [n1, n2, n3, n4];
+            document.write("Los números ingresados son: " + numeros);
+            let promedio = (n1 + n2 + n3 + n4) / 4;
+            document.write("<br>El promedio es: " + promedio);
+        }
+        
+    </script>
+</body>
+</html>
