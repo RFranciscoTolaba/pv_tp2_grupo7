@@ -2,6 +2,7 @@
 import { guardarEstudianteEnArray, mostrarEstudiante } from "../services/serivesEjercicio20.js";
 import { servicioGustavoSosa } from "../services/serviceGustavoSosa.js";
 import { serviceFranciscoTolaba } from "../services/serviceFranciscoTolaba.js";
+import { serviceRicardoCondori } from "../services/serviceRicardoCondori.js";
 
 // Esperar al DOM
 document.addEventListener('DOMContentLoaded', () => {
