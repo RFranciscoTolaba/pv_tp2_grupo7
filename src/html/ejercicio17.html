@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let texto = prompt("Ingrese un texto:");
+
+        function contarLetraA(texto) {
+
+            let contador = 0
+
+            for (let i = 0; i < texto.length; i++) {
+                if (texto[i] == "a" || texto[i] == "A") {
+                    contador++
+                }
+            }
+
+            return contador
+        }
+
+        let resultado = contarLetraA(texto)
+
+        document.write("El texto ingresado es: " + texto);
+        document.write("<br>La cantidad de letras 'a' es: " + resultado);
+    </script>
+</body>
+
+</html>
