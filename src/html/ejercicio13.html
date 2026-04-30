@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const mostrarArreglo = (arreglo) => {
+            document.write(`<h3>Números en el arreglo:</h3>`);
+            for (let i = 0; i < arreglo.length; i++) {
+                document.write(`Elemento ${i + 1}: ${arreglo[i]} <br>`);
+            }
+        };
+        const cantidad = parseInt(prompt("¿Cuántos números vas a ingresar en total?"));
+        const numerosIngresados = [];
+        for (let i = 0; i < cantidad; i++) {
+            let numero = parseInt(prompt(`Ingresa el número ${i + 1} de ${cantidad}:`));
+            numerosIngresados.push(numero);
+        }
+        mostrarArreglo(numerosIngresados);
+    </script>
+</body>
+</html>
