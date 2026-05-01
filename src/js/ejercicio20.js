@@ -1,14 +1,9 @@
 // logica de negocio
 import { guardarEstudianteEnArray, mostrarEstudiante } from "../services/serivesEjercicio20.js";
 import { serviceFranciscoTolaba } from "../services/serviceFranciscoTolaba.js";
-<<<<<<< HEAD
 import { servicioLucasSegovia } from "../service/serviceLucasSegovia.js";
-=======
 import { serviceRicardoCondori } from "../services/serviceRicardoCondori.js"
 import { serviceGerardoReyes } from "../services/serviceGerardoReyes.js";
->>>>>>> origin/rama-ricardo
-
-
 import { servicioLlampaKevin } from "../service/serviceLlampaKevin.js";
 // Esperar al DOM
 document.addEventListener('DOMContentLoaded', () => {
