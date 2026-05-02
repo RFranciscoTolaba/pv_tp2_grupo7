@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/ejercicio24.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ejercicio 24</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ejercicio 24</h1>
+    </header>
+    <main>
+      <section class="card">
+        <h2>Seleccione su lenguaje de programacion favorito</h2>
+        <form id="form-input">
+
+          <div class="group-form">
+            <input type="radio" name="lang" id="javascript" value="JavaScript" />
+            <label for="JavaScript">JavaScript</label>
+          </div>
+
+          <div class="group-form">
+            <input type="radio" name="lang" id="Python" value="Python" />
+            <label for="Python">Python</label>
+          </div>
+
+          <div class="group-form">
+            <input type="radio" name="lang" id="c++" value="C++" />
+            <label for="C++">C++</label>
+          </div>
+          
+            <div class="group-form">
+            <input type="radio" name="lang" id="gdscript" value="GDScript" />
+            <label for="GDScript">GDScript</label>
+          </div>
+
+          <button type="submit" id="form-sent">Enviar</button>
+        </form>
+      </section>
+
+      <section id="form-result"></section>
+    </main>
+
+    <script type="module" src="../js/ejercicio24.js"></script>
+  </body>
+</html>

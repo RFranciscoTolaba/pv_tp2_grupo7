@@ -1,0 +1,38 @@
+:root {
+  --primary-color: rgb(181, 252, 198);
+  --primary-hover: rgb(181, 252, 198);
+  --primary-text-color: rgb(26, 26, 26);
+  --secondary-text-color: rgb(66, 65, 65);
+  --border-radius: 10px;
+  --transition: all 0.4s ease;
+  --bg-color: rgb(199, 195, 162);
+  --tarjet-shadow: 0 5px 10px rgb(129, 129, 129);
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  display: grid;
+  margin: 0px;
+}
+main{
+    text-align: center;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    color: var(--secondary-text-color);
+    font-size: 28px;
+}
+
+.group-form{
+    display: block;
+    font-size: 23px;
+    text-align: center;
+   
+    
+}
