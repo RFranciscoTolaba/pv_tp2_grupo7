@@ -1,4 +1,4 @@
-import { cambioColor } from "../services/funciones23.js";
+import { cambioColor } from "../service/funciones23.js";
 
 let input = document.querySelector("#texto")
 let resultado = document.querySelector("#resultado")
