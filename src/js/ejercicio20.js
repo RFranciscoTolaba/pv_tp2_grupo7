@@ -5,9 +5,8 @@ import { serviceGerardoReyes } from "../services/serviceGerardoReyes.js";
 import { servicioLucasSegovia } from "../services/serviceLucasSegovia.js";
 import { serviceRicardoCondori } from "../services/serviceRicardoCondori.js";
 import { servicioLucasSegovia } from "../services/serviceLucasSegovia.js";
-import { serviceRicardoCondori } from "../services/serviceRicardoCondori.js"
 
-import { servicioLlampaKevin } from "../services/serviceLlampaKevin.js";
+
 // Esperar al DOM
 document.addEventListener('DOMContentLoaded', () => {
     
