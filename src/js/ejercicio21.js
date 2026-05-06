@@ -1,5 +1,5 @@
 // Importamos la función desde el otro archivo
-import { actualizarCapitalSeleccionada } from './funciones21.js';
+import { actualizarCapitalSeleccionada } from '../services/funciones21.js';
 
 // Capturamos los elementos del DOM
 const selectPais = document.querySelector('#pais');
