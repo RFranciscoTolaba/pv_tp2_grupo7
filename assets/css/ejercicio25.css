@@ -1,0 +1,18 @@
+#click{
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 5px;
+    background-color:lightgray;
+    
+    
+}
+#fondo{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
